@@ -1,0 +1,207 @@
+.students {
+    margin-bottom: 100px;
+}
+
+.review {
+    margin-bottom: 30px;
+}
+
+.review-item {
+    display: flex;
+    gap: 20px;
+}
+
+.review-item-one {
+    background: #2D2E83;
+    border-radius: 15px;
+}
+
+.review-item-one-last {
+    background: #2D2E83;
+    border-radius: 15px;
+}
+
+.review-item-one-content {
+    display: flex;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+.review-item-one-up {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 20px;
+}
+
+.review-item-one-up h3 {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.review-item-one-up span {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.review-item-one-down {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 32px;
+}
+
+.review-item-one-down h3 {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.review-item-one-down span {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.sliders__btn-stu {
+    margin: 0 auto;
+    border-radius: 15px;
+    background: #E30613;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+    padding: 16px 67px;
+    border: none;
+    color: #fff;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+@media (max-width: 960px) {
+    .students {
+        margin-bottom: 60px;
+    }
+    
+    .review {
+        margin-bottom: 20px;
+    }
+/*     
+    .review-item {
+       overflow: hidden;
+    }
+     */
+    /* .review-item-one {
+        background: #2D2E83;
+        border-radius: 15px;
+    } */
+    
+    .review-item-one-content {
+        padding-top: 20px;
+        padding-left: 20px;
+    }
+    
+    .review-item-one-up {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding-left: 20px;
+    }
+    
+    .review-item-one-up h3 {
+        font-size: 24px;
+    }
+    
+    .review-item-one-down {
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .review-item-one-down h3 {
+        font-size: 24px;
+    }
+    
+    .review-item-one-down span {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 800px) {
+    .students {
+        margin-bottom: 40px;
+    }
+    
+    .review {
+        margin-bottom: 20px;
+    }
+
+    .review-item {
+        justify-content: center;
+    }
+
+    .review-item-one {
+        width: 320px;
+        height: 370px;
+    }
+
+    .review-item-one-last {
+        display: none;
+    }
+/*     
+    .review-item {
+       overflow: hidden;
+    }
+     */
+    
+    .review-item-one-content img{
+        width: 48px;
+        height: 48px;
+    }
+    
+    .review-item-one-up {
+        gap: 5px;
+        padding-left: 20px;
+    }
+    
+    .review-item-one-up h3 {
+        font-size: 20px;
+    }
+
+    .review-item-one-up span {
+        font-size: 16px;
+    }
+    
+    .review-item-one-down {
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .review-item-one-down h3 {
+        font-size: 20px;
+    }
+    
+    .review-item-one-down span {
+        font-size: 12px;
+    }
+}

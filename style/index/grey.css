@@ -1,0 +1,355 @@
+.grey {
+    background-color: #D9D9D9;
+    height: 540px;
+    margin-bottom: 80px;
+    /* width: 100%; */
+}
+
+.form {
+    width: 1200px;
+    width: auto;
+    height: 628px;
+    border-radius: 15px;
+    background: #2D2E83;
+    position: relative;
+    bottom: 44px;
+    margin: 0 auto;
+}
+
+.form button {
+    margin: 20px 0 20px 60px;
+    border-radius: 15px;
+    background: #E30613;
+    text-align: center;
+    padding: 19px 30px;
+    border: none;
+    width: 43.5%;
+    color: #fff;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.form__title {
+    padding-top: 60px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+}
+
+.form__desc span {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.form__desc {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.form-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-bottom: 40px;
+}
+
+.form-name {
+    border-radius: 15px;
+    background: #FFF;
+    padding: 19px 30px;
+    border: none;
+    width: 44%;
+    color: #A4A4B1;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.form-phone {
+    border-radius: 15px;
+    background: #FFF;
+    padding: 19px 30px;
+    border: none;
+    width: 44%;
+    color: #A4A4B1;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.form-sity {
+    border-radius: 15px;
+    background: #FFF;
+    padding: 19px 30px;
+    border: none;
+    width: 100%;
+    color: #A4A4B1;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.police span {
+    color: #E3E3E5;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 60px;
+}
+
+.police a {
+    color: #E3E3E5;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+
+@media (max-width: 1440px) {
+    .form-name {
+        width: 43.85%;
+    }
+    
+    .form-phone {
+        width: 43.85%;
+    }
+}
+
+
+@media (max-width: 1200px) {
+    .form-name {
+        width: 43.2%;
+    }
+    
+    .form-phone {
+        width: 43.2%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .grey {
+        height: 360px;
+        margin-bottom: 90px;
+    }
+    
+    .form {
+        width: auto;
+        height: 460px;
+        position: relative;
+        bottom: 44px;
+    }
+    
+    .form button {
+        margin: 20px 0 20px 30px;
+        width: 41%;
+        font-size: 24px;
+    }
+    
+    .form__title {
+        padding-top: 30px;
+        font-size: 44px;
+    }
+    
+    .form__desc span {
+        font-size: 24px;
+    }
+    
+    .form__desc {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    
+    .form-form {
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-bottom: 20px;
+    }
+    
+    .form-name {
+        font-size: 24px;
+        width: 42.4%;
+    }
+    
+    .form-phone {
+        font-size: 24px;
+        width: 42.4%;
+    }
+    
+    .form-sity {
+        font-size: 24px;
+    }
+    
+    .police span {
+        font-size: 12px;
+        margin-left: 30px;
+    }
+    
+    .police a {
+        font-size: 12px;
+    }
+}
+
+/* @media (max-width: 960px) {
+    .grey {
+        height: 360px;
+        margin-bottom: 70px;
+    }
+    
+    .form {
+        width: auto;
+        height: 460px;
+        position: relative;
+        bottom: 44px;
+    }
+    
+    .form button {
+        margin: 20px 0 20px 30px;
+        width: 41%;
+        font-size: 24px;
+    }
+    
+    .form__title {
+        padding-top: 30px;
+        font-size: 44px;
+    }
+    
+    .form__desc span {
+        font-size: 24px;
+    }
+    
+    .form__desc {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    
+    .form-form {
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-bottom: 20px;
+    }
+    
+    .form-name {
+        font-size: 24px;
+        width: 41.2%;
+    }
+    
+    .form-phone {
+        font-size: 24px;
+        width: 41.2%;
+    }
+    
+    .form-sity {
+        font-size: 24px;
+    }
+    
+    .police span {
+        font-size: 12px;
+        margin-left: 30px;
+    }
+    
+    .police a {
+        font-size: 12px;
+    }
+    
+} */
+
+@media (max-width: 800px) {
+    .grey {
+        height: 320px;
+        margin-bottom: 60px;
+    }
+    
+    .form {
+        height: 400px;
+    }
+    
+    .form button {
+        margin: 0px 0 20px 20px;
+        width: 41%;
+        font-size: 24px;
+    }
+    
+    .form__title {
+        padding-top: 20px;
+        font-size: 34px;
+    }
+    
+    .form__desc span {
+        font-size: 20px;
+    }
+    
+    .form__desc {
+        font-size: 20px;
+        font-weight: 300;
+        margin-bottom: 20px;
+    }
+    
+    .form-form {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .form-name {
+        font-size: 24px;
+        width: 40.4%;
+    }
+    
+    .form-phone {
+        font-size: 24px;
+        width: 40.4%;
+    }
+    
+    .form-sity {
+        font-size: 24px;
+    }
+    
+    .police span {
+        font-size: 10px;
+        margin-left: 20px;
+    }
+    
+    .police a {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .form-name {
+        font-size: 24px;
+        width: 39.2%;
+    }
+    
+    .form-phone {
+        font-size: 24px;
+        width: 39.2%;
+    }
+}

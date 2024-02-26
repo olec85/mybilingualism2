@@ -1,0 +1,112 @@
+.line {
+    background: linear-gradient(180deg, #62639C 0%, #2D2E83 51.56%, #6C6DA5 98.44%);
+    box-shadow: 0px 6px 7px 0px #000;
+}
+
+.line__container-line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home {
+    background: linear-gradient(180deg, #E36970 0%, #E30613 46.35%, #E36970 100%);
+    padding: 19px;
+}
+
+.line__container-line-left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.line__container-line-left a {
+    color: #F0F8FF;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.line__container-line-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.line__container-line-btn {
+    color: #F0F8FF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 10px;
+    background: linear-gradient(180deg, #E36970 0%, #E30613 46.35%, #E36970 100%);
+    padding: 15px 19px;
+}
+
+@media (max-width: 1024px) {
+    .line__container-line-left a {
+        font-size: 18px;
+    }
+
+    .home img {
+        width: 40px;
+        height: 35px;
+    }
+
+    .line__container-line-btn {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 960px) {
+    .line {
+        width: 100%;
+    }
+    
+    .home {
+        padding: 12px 10px;
+    }
+
+    .home img {
+        width: 40px;
+        height: 35px;
+    }
+    
+    .line__container-line-left a {
+        font-size: 16px;
+    }
+    
+    .line__container-line-right {
+        gap: 10px;
+    }
+
+    .line__container-line-right img {
+        width: 60px;
+        height: 40px;
+    }
+    
+    .line__container-line-btn {
+        font-size: 16px;
+        padding: 10px 19px;
+    }
+}
+
+@media (max-width: 800px) {
+    .line__container-line-left {
+        gap: 10px;
+    }
+
+    .line__container-line-left a {
+        font-size: 14px;
+    }
+
+    .line__container-line-btn {
+        font-size: 14px;
+        padding: 12px 16px;
+    }
+}

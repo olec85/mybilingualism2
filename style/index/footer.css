@@ -1,0 +1,141 @@
+.footer {
+    background: #2D2E83;
+}
+
+.footer__container {
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 56px;
+}
+
+.footer__container-left {
+    margin-right: 242px;
+}
+
+.footer__container-left-copyright {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__container-left-copyright span{
+    color: #E8E8E8;
+    font-family: Montserrat;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.footer__container-left-link {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 50px;
+}
+
+.footer__container-left-link a{
+    color: #BCBCBC;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+}
+/* 
+.footer__container-right {
+
+} */
+
+.footer__container-up-info {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+
+.footer__container-up-info h3 {
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.footer__phone {
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.footer__nav-social {
+    display: flex;
+    gap: 10px;
+}
+
+.footer__nav-social li {
+    list-style-type: none;
+}
+
+.footer__container-right-carts {
+    display: grid;
+    grid-template-columns: repeat(4, min-content);
+    gap: 20px;
+}
+
+
+@media (max-width: 960px) {
+    
+    .footer__container {
+        display: flex;
+        padding-top: 30px;
+        padding-bottom: 48px;
+    }
+    
+    .footer__container-left {
+        margin-right: 64px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    
+    .footer__container-left-copyright span{
+        font-size: 24px;
+    }
+    
+    .footer__container-left-link {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .footer__container-left-link a{
+        font-size: 20px;
+    }
+    
+    .footer__container-up-info {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        margin-bottom: 30px;
+    }
+    
+    
+    .footer__container-up-info h3 {
+        font-size: 20px;
+    }
+    
+    .footer__phone {
+        font-size: 16px;
+    }
+  
+    .footer__container-right-carts {
+        gap: 10px;
+    }
+
+    .footer__container-right-carts img {
+        width: 94px;
+        height: 60px;
+    }
+}

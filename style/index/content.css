@@ -1,0 +1,130 @@
+.content {
+    margin-bottom: 44px;
+}
+/* .content {
+    background-image: url(/image/girl.png);
+    background-position: right -30px;
+    background-repeat: no-repeat;
+} */
+
+.content__container {
+    display: flex;
+    align-items: flex-start;
+}
+
+.content__container img {
+    z-index: -1;
+}
+
+
+.content__container-title-title {
+    color: #312783;
+    font-family: Montserrat;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 50px;
+    margin-bottom: 20px;
+}
+.content__container-title {
+    display: flex;
+}
+
+.content__container-title img {
+    /* position: relative;
+    top: -140px; */
+    margin-top: -140px;
+
+    z-index: 5;
+}
+
+.content__container-desc {
+    color: #312783;
+    font-family: Montserrat;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.content__container-desc-span {
+    display: flex;
+    flex-direction: column;
+    padding-left: 16px;
+}
+
+.content__container-desc-span li::before {
+    list-style-type: circle;
+}
+
+@media (max-width: 1200px) {
+    .content__container-desc {
+        font-size: 26px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .content__container-title-title {
+        font-size: 54px;
+    }
+
+    .content__container-title img{
+        width: 380px;
+        height: 300px;
+    }
+
+    .content__container-title img {
+        margin-top: -80px;
+    }
+}
+
+
+@media (max-width: 960px) {
+    .content {
+        margin-bottom: 44px;
+    }
+
+    .content__container {
+        display: flex;
+        align-items: flex-start;
+    }
+ 
+    .content__container-title-title {
+        font-size: 44px;
+        margin-bottom: 10px;
+    }
+    
+    .content__container-title img {
+        /* position: relative;
+        top: -140px; */
+        margin-top: -82px;
+        z-index: 5;
+    }
+    
+    .content__container-desc {
+        font-size: 22px;
+    }
+
+    .content__container-title img{
+        width: 380px;
+        height: 300px;
+    }
+}
+
+@media (max-width: 800px) {
+    .content__container-title-title {
+        font-size: 34px;
+    }
+
+    .content__container-desc {
+        font-size: 18px;
+    }
+
+    .content__container-title img{
+        width: 360px;
+        height: 240px;
+        margin-top: -38px;
+    }
+    
+}
