@@ -121,7 +121,7 @@
     line-height: normal;
 }
 
-@media (max-width: 1200px) {
+/* @media (max-width: 1200px) {
     .sliders__container-title {
         font-size: 72px;
     }
@@ -169,11 +169,11 @@
         font-size: 20px;
         padding-left: 20px;
         width: 320px;
-    }
+    } */
     
-    .slider {
+    /* .slider { */
         /* border:  2px solid black; */
-        max-width: 80%;
+        /* max-width: 80%;
         margin: 0 auto;
         overflow: hidden;
     }
@@ -208,9 +208,9 @@
     .sliders__btn {
         font-size: 24px;
     }
-}
+} */
 
-@media (max-width: 960px) {
+/* @media (max-width: 960px) {
     .sliders {
         margin-bottom: 20px;
         min-height: 574px;
@@ -242,16 +242,16 @@
         font-size: 20px;
         padding-left: 20px;
         width: 320px;
-    }
+    } */
     
-    .slider {
-        /* border:  2px solid black; */
+    /* .slider {
+        border:  2px solid black;
         max-width: 80%;
         margin: 0 auto;
         overflow: hidden;
-    }
+    } */
    
-    .slider-line-item img {
+    /* .slider-line-item img {
         width: 360px;
         height: 340px;
     }
@@ -281,9 +281,9 @@
     .sliders__btn {
         font-size: 24px;
     }
-}
+} */
 
-@media (min-width: 800px) {
+/* @media (min-width: 800px) {
     .sliders {
         margin-bottom: 20px;
         min-height: 470px;
@@ -317,15 +317,15 @@
         padding-left: 10px;
         width: 250px;
     }
-    
-    .slider {
-        /* border:  2px solid black; */
+     */
+    /* .slider {
+        border:  2px solid black;
         max-width: 68%;
         margin: 0 auto;
         overflow: hidden;
-    }
+    } */
 
-    .slider-line-item img {
+    /* .slider-line-item img {
         width: 270px;
         height: 264px;
     }
@@ -348,11 +348,11 @@
         font-size: 20px;
         padding: 12px 30px;
     }
-}
+} */
 
 
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
     .sliders {
         margin-bottom: 20px;
         min-height: 470px;
@@ -385,10 +385,10 @@
         font-size: 14px;
         padding-left: 10px;
         width: 218px;
-    }
+    } */
     
-    .slider {
-        /* border:  2px solid black; */
+    /* .slider {
+        border:  2px solid black;
         max-width: 68%;
         margin: 0 auto;
         overflow: hidden;
@@ -415,4 +415,4 @@
         font-size: 20px;
         padding: 12px 30px;
     }
-}
+} */
